@@ -116,7 +116,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-a', '--address', help="Example: https://example.com", default='', required=True)
     parser.add_argument('-c', '--count', help="Count of urls(default - 0(get all))", default=0)
-    parser.add_argument('-f', '--file', help="Save results to file", default='')
+    parser.add_argument('-f', '--file', help="Save results to file /home/kali/urls.txt", default='')
     args = parser.parse_args()
 
     try:
